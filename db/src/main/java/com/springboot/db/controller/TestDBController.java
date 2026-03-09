@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.db.controller.TestDBController;
+import com.springboot.db.service.FirebaseService;
 
 @RestController
 public class TestDBController {
