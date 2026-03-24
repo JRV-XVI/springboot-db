@@ -28,6 +28,17 @@ public class FirebaseService {
                 .document("doc1")
                 .set(data);
 
+            
+            // datos a guardar de los pokemones
+            Map<String, Object> datapok = new HashMap<>();
+            datapok.put("vida1", 20);
+            datapok.put("vida2", 20);
+
+            db.collection("pokemon")
+                .document("12345")
+                .set(datapok);
+
+
             return "Datos guardados correctamente";
 
         } catch (Exception e) {

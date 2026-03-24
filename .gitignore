@@ -24,4 +24,5 @@ hs_err_pid*
 replay_pid*
 
 
+# Este no me esta jalando, no se por que
 db/src/main/resources/firebase-service-account.json
