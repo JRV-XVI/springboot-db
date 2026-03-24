@@ -18,6 +18,7 @@ public class TestDBController {
     @GetMapping("/firebase-test")
     public String testFirebase() {
 
+        System.out.println("Holaaaaa");
         firebaseService.guardarDato();
         return "Dato enviado a Firebase";
     }
