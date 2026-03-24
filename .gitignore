@@ -23,4 +23,5 @@
 hs_err_pid*
 replay_pid*
 
-db\src\main\resources\firebase-service-account.json
+
+db/src/main/resources/firebase-service-account.json
